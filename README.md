@@ -1,40 +1,19 @@
-# passport-printing
-This project provides a streamlined solution for printing passports, ensuring accuracy and compliance with official specifications. It offers customizable templates, automated data input, and high-quality printing options, making the passport creation process efficient and user-friendly.
+# Passport Printing Queue
 
-### Overview
-The Passport Printing Project is designed to facilitate the creation and printing of passports with ease. This application allows users to input personal data, select templates, and generate high-quality print-ready files that meet official requirements.
+## Description
+Passport Printing Queue is a simple command-line application that allows users to manage passport printing jobs. The application enables users to create new jobs, read the list of existing jobs, update job statuses, delete jobs, and process the printing of passports based on urgency.
 
-### Features
--Customizable Templates: Choose from various passport templates.
--Data Input: Easy form for entering personal details.
--Preview: View the final design before printing.
--High-Quality Printing: Ensure professional-grade prints.
--Compliance: Meets international passport printing standards.
+## Features
+- **Create Job**: Add a new passport printing job with details such as Job ID, applicant name, and urgency.
+- **Read Jobs**: Display the current list of jobs in the queue.
+- **Update Job Status**: Change the status of a job (e.g., Pending, In Progress, Completed).
+- **Delete Job**: Remove a job from the queue by its Job ID.
+- **Process Jobs**: Process jobs in order of urgency, printing passports and updating their statuses.
 
-### Requirements
-*Software:
-Python 3.x
-Required libraries (see requirements.txt)
-*Hardware:
-Printer capable of high-resolution printing
+## Requirements
+- Python 3.x
 
-### installation
-1. Clone the repository
-git clone https://github.com/yourusername/passport-printing.git
-2.Navigate to the project directory:
-cd passport-printing
-3.Install the required dependencies:
-pip install -r requirements.txt
-
-### Usage
-1.Run the application:
-python app.py
-2.Follow the on-screen instructions to input personal data and select a template.
-3.Preview the passport and proceed to print.
-
-### Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
-
-### License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/passport-printing-queue.git
